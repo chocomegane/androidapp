@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.ownrer.tesuto2.MainActivity"
+    android:background="@drawable/new_android">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ようこそ"
+        android:textColor="#FAFAD2"
+        android:id="@+id/textView"
+        android:textSize="30dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="83dp" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="スタート"
+        android:textColor="#000000"
+        android:id="@+id/button"
+        android:layout_marginBottom="113dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/button_background"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ネット上画像"
+        android:textColor="#000000"
+        android:id="@+id/net"
+        android:background="@drawable/button_background"
+        android:layout_alignTop="@+id/button"
+        android:layout_toEndOf="@+id/textView" />
+
+
+</RelativeLayout>
