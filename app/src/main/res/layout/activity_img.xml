@@ -6,7 +6,7 @@
     tools:context="com.example.ownrer.tesuto2.ImgActivity">
 
     <ImageView
-        android:src="@drawable/aisha_1"
+        android:src="@drawable/new_104210_original"
         android:scaleType="fitCenter"
         android:layout_width="match_parent"
         android:layout_height="match_parent" />
