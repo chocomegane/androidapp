@@ -4,39 +4,35 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context="com.example.ownrer.tesuto2.MainActivity"
-    android:background="@drawable/new_android">
-
-
+    android:background="#000000">
     <TextView
+        android:id="@+id/textView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="ようこそ"
-        android:textColor="#FAFAD2"
-        android:id="@+id/textView"
-        android:textSize="30dp"
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="83dp" />
-
+        android:layout_marginTop="83dp"
+        android:text="トップ画面"
+        android:textColor="#FAFAD2"
+        android:textSize="30dp" />
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="スタート"
+        android:text="ログイン"
         android:textColor="#000000"
-        android:id="@+id/button"
-        android:layout_marginBottom="113dp"
-        android:layout_alignParentBottom="true"
-        android:layout_centerHorizontal="true"
-        android:background="@drawable/button_background"/>
-    <Button
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="ネット上画像"
-        android:textColor="#000000"
-        android:id="@+id/net"
+        android:id="@+id/rogin"
         android:background="@drawable/button_background"
-        android:layout_alignTop="@+id/button"
-        android:layout_toEndOf="@+id/textView" />
-
-
+        android:layout_below="@+id/textView"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="191dp" />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="新規登録"
+        android:textColor="#000000"
+        android:id="@+id/register"
+        android:background="@drawable/button_background"
+        android:layout_alignTop="@+id/rogin"
+        android:layout_alignStart="@+id/rogin"
+        android:layout_marginTop="70dp" />
 </RelativeLayout>

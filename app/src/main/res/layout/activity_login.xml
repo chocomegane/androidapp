@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:background="#000000"
+    tools:context="com.example.ownrer.tesuto2.LoginActivity">
+
+
+        <TextView
+            android:id="@+id/view_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#ffffff"
+            android:textSize="30sp"
+            android:layout_marginTop="40dp"
+            android:text="ログイン画面"/>
+
+        <LinearLayout
+            android:id="@+id/password_text_eria"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="50dp"
+            android:layout_alignTop="@+id/view_name"
+            android:gravity="center">
+
+            <TextView
+                android:id="@+id/password_text"
+                android:layout_width="@dimen/nature_textview_width"
+                android:layout_height="@dimen/nature_textview_height"
+                android:background="@color/text_view_color"
+                android:gravity="center"
+                android:text="@string/password_text"
+                android:textColor="#000000" />
+
+
+            <EditText
+                android:layout_width="@dimen/nature_textbox_width"
+                android:layout_height="@dimen/nature_textbox_height"
+                android:id="@+id/password"
+                android:background="#ffffff"
+                android:textColor="#000000" />
+        </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/email_text_eria"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:layout_alignTop="@+id/password_text_eria"
+        android:gravity="center">
+
+        <TextView
+            android:id="@+id/email_text"
+            android:layout_width="@dimen/nature_textview_width"
+            android:layout_height="@dimen/nature_textview_height"
+            android:background="@color/text_view_color"
+            android:gravity="center"
+            android:text="@string/email_text"
+            android:textColor="#000000" />
+
+
+        <EditText
+            android:layout_width="@dimen/nature_textbox_width"
+            android:layout_height="@dimen/nature_textbox_height"
+            android:id="@+id/email"
+            android:background="#ffffff"
+            android:textColor="#000000" />
+    </LinearLayout>
+
+
+        <Button
+            android:id="@+id/button"
+            android:layout_width="@dimen/nature_button_width"
+            android:layout_height="@dimen/nature_button_height"
+            android:layout_alignTop="@+id/email_text_eria"
+            android:layout_marginTop="40dp"
+            android:background="@color/button_color"
+            android:gravity="center"
+            android:text="ログイン"
+            android:textColor="#000000"/>
+</RelativeLayout>

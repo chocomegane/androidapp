@@ -8,4 +8,8 @@
     <string name="section_format">Hello World from section: %1$d</string>
     <string name="title_activity_tesuto">tesutoActivity</string>
     <string name="title_activity_testo">TestoActivity</string>
+    <string name="title_activity_login">loginActivity</string>
+    <string name="password_text">パスワード</string>
+    <string name="email_text">メールアドレス</string>
+
 </resources>

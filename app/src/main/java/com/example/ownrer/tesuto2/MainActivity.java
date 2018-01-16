@@ -4,29 +4,29 @@ import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
-import android.webkit.WebView;
 import android.widget.Button;
 
 public class MainActivity extends AppCompatActivity {
 
-    Button button1;
-    Button button;
+    Button rogin;
+    Button register;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-
-        button =(Button)findViewById(R.id.button);
-        button.setOnClickListener(new View.OnClickListener() {
+        // ログインボタン
+        rogin =(Button)findViewById(R.id.rogin);
+        rogin.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
-                Intent intent = new Intent(MainActivity.this,WebviewgoogleActivity.class);
+                Intent intent = new Intent(MainActivity.this,LoginActivity.class);
                 startActivity(intent);
-
             }
         });
-        button1 =(Button)findViewById(R.id.net);
-        button1.setOnClickListener(new View.OnClickListener() {
+        // 新規登録
+        register =(Button)findViewById(R.id.register);
+        // 新規登録ボタンを押下した場合新規登録機能を実施
+        register.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
                 Intent intent = new Intent(MainActivity.this,ImgActivity.class);
                 startActivity(intent);
