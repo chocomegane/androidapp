@@ -11,5 +11,7 @@
     <string name="title_activity_login">loginActivity</string>
     <string name="password_text">パスワード</string>
     <string name="email_text">メールアドレス</string>
+    <string name="title_activity_user_register">UserRegisterActivity</string>
+    <string name="title_activity_home">HomeActivity</string>
 
 </resources>

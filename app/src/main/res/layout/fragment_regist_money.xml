@@ -1,0 +1,89 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    tools:context="com.example.ownrer.tesuto2.RegistMoneyFragment">
+
+
+
+<LinearLayout
+    android:id="@+id/salary_text_eria"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="50dp"
+    android:layout_alignTop="@+id/view_name"
+    android:gravity="center">
+
+    <TextView
+        android:id="@+id/salary_text"
+        android:layout_width="@dimen/nature_textview_width"
+        android:layout_height="@dimen/nature_textview_height"
+        android:background="@color/text_view_color"
+        android:gravity="center"
+        android:text="今月の給料"
+        android:textColor="#000000" />
+
+
+    <EditText
+        android:layout_width="@dimen/nature_textbox_width"
+        android:layout_height="@dimen/nature_textbox_height"
+        android:id="@+id/password"
+        android:background="#ffffff"
+        android:textColor="#000000" />
+</LinearLayout>
+
+<LinearLayout
+    android:id="@+id/target_text_eria"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="30dp"
+    android:layout_alignTop="@+id/salary_text_eria"
+    android:gravity="center">
+
+    <TextView
+        android:id="@+id/target_text"
+        android:layout_width="@dimen/nature_textview_width"
+        android:layout_height="@dimen/nature_textview_height"
+        android:background="@color/text_view_color"
+        android:gravity="center"
+        android:text="出費目標"
+        android:textColor="#000000" />
+
+    <EditText
+        android:layout_width="@dimen/nature_textbox_width"
+        android:layout_height="@dimen/nature_textbox_height"
+        android:id="@+id/email"
+        android:background="#ffffff"
+        android:textColor="#000000" />
+</LinearLayout>
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center"
+    android:layout_marginTop="56dp"
+    android:layout_below="@+id/target_text_eria"
+    android:layout_alignParentStart="true">
+
+    <Button
+        android:id="@+id/register"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@color/button_color"
+        android:gravity="center"
+        android:text="登録"
+        android:textColor="#000000" />
+
+    <Button
+        android:id="@+id/back"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@color/button_color"
+        android:gravity="center"
+        android:text="戻る"
+        android:textColor="#000000" />
+
+</LinearLayout>
+
+
+</RelativeLayout>

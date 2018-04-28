@@ -4,6 +4,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:gravity="center"
+    android:id="@+id/container"
     android:background="#000000"
     tools:context="com.example.ownrer.tesuto2.LoginActivity">
 
@@ -34,7 +35,6 @@
                 android:text="@string/password_text"
                 android:textColor="#000000" />
 
-
             <EditText
                 android:layout_width="@dimen/nature_textbox_width"
                 android:layout_height="@dimen/nature_textbox_height"
@@ -60,7 +60,6 @@
             android:text="@string/email_text"
             android:textColor="#000000" />
 
-
         <EditText
             android:layout_width="@dimen/nature_textbox_width"
             android:layout_height="@dimen/nature_textbox_height"
@@ -69,9 +68,8 @@
             android:textColor="#000000" />
     </LinearLayout>
 
-
         <Button
-            android:id="@+id/button"
+            android:id="@+id/login"
             android:layout_width="@dimen/nature_button_width"
             android:layout_height="@dimen/nature_button_height"
             android:layout_alignTop="@+id/email_text_eria"
@@ -80,4 +78,5 @@
             android:gravity="center"
             android:text="ログイン"
             android:textColor="#000000"/>
+
 </RelativeLayout>

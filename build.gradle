@@ -11,6 +11,7 @@ buildscript {
         // in the individual module build.gradle files
         //アンドロイドアノテーション　依存関係追加
         classpath 'com.neenbedankt.gradle.plugins:android-apt:1.4'
+
     }
 }
 
@@ -23,3 +24,5 @@ allprojects {
 task clean(type: Delete) {
     delete rootProject.buildDir
 }
+
+

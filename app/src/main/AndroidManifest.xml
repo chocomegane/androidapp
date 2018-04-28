@@ -32,9 +32,18 @@
             android:label="@string/title_activity_testo"
             android:theme="@style/Theme.AppCompat.NoActionBar" />
         <activity android:name=".ImgActivity" />
+        <!-- androidアノテーション使用時には -->
         <activity
             android:name=".LoginActivity"
             android:label="@string/title_activity_login"
+            android:theme="@style/Theme.AppCompat.NoActionBar" />
+        <activity
+            android:name=".UserRegisterActivity"
+            android:label="@string/title_activity_user_register"
+            android:theme="@style/Theme.AppCompat.NoActionBar" />
+        <activity
+            android:name=".HomeActivity"
+            android:label="@string/title_activity_home"
             android:theme="@style/Theme.AppCompat.NoActionBar"></activity>
     </application>
 

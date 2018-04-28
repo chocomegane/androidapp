@@ -1,0 +1,30 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.ownrer.tesuto2.RatioMoneyFragment">
+    <LinearLayout
+        android:id="@+id/ratio"
+        android:layout_width="match_parent"
+        android:layout_height="467dp"
+        android:layout_margin="16dp" >
+        <com.github.mikephil.charting.charts.PieChart
+            android:id="@+id/pie_chart"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_marginTop="500dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/back"
+            android:text="戻る"
+            android:layout_width="100dp"
+            android:layout_height="50dp" />
+    </LinearLayout>
+
+</FrameLayout>
