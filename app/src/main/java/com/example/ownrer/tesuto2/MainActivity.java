@@ -30,7 +30,9 @@ public class MainActivity extends AppCompatActivity {
         // 新規登録ボタンを押下した場合新規登録機能を実施
         register.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
-                Intent intent = new Intent(MainActivity.this, UserRegisterActivity.class);
+//                Intent intent = new Intent(MainActivity.this, UserRegisterActivity.class);
+//                startActivity(intent);
+                Intent intent = new Intent(MainActivity.this, HttpTestActivity.class);
                 startActivity(intent);
             }
         });

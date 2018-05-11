@@ -44,6 +44,10 @@
         <activity
             android:name=".HomeActivity"
             android:label="@string/title_activity_home"
+            android:theme="@style/Theme.AppCompat.NoActionBar" />
+        <activity
+            android:name=".HttpTestActivity"
+            android:label="@string/title_activity_http_test"
             android:theme="@style/Theme.AppCompat.NoActionBar"></activity>
     </application>
 

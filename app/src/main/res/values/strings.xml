@@ -13,5 +13,6 @@
     <string name="email_text">メールアドレス</string>
     <string name="title_activity_user_register">UserRegisterActivity</string>
     <string name="title_activity_home">HomeActivity</string>
+    <string name="title_activity_http_test">HttpTestActivity</string>
 
 </resources>
